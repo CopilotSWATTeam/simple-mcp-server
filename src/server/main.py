@@ -8,6 +8,11 @@ logger = get_logger("my-simple-mcp-server")
 
 mcp = FastMCP("My MCP Server")
 
+@mcp.tool 
+def add(a: int, b: int) -> int:
+    """ This is a simple tool that will add two numbers together."""
+    return a + b
+
 @mcp.tool
 def greet(name: str) -> str:
     """ This is a simple tool that will greet a user by their name. """
