@@ -2,6 +2,8 @@
 
 <img src="https://avatars.githubusercontent.com/u/173712998?s=200&v=4" alt="M365 Copilot S.W.A.T. Team Logo"/>
 
+A simple MCP Server, written in Python.
+
 # Local Development
 
 Follow the steps below to clone the repo, install dependencies, and run the server locally while debugging and testing.
