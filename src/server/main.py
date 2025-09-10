@@ -2,6 +2,12 @@ from fastmcp import FastMCP
 from fastmcp.utilities.logging import get_logger
 import io
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+PORT = os.environ.get("PORT")
+print(PORT)
 
 cwd = os.getcwd()
 logger = get_logger("my-simple-mcp-server")
@@ -12,6 +18,21 @@ mcp = FastMCP("My MCP Server")
 def add(a: int, b: int) -> int:
     """ This is a simple tool that will add two numbers together."""
     return a + b
+
+@mcp.tool
+def subtract(a: int, b: int) -> int:
+    """ This is a simple tool that will subtract a number from another number."""
+    return a - b
+
+@mcp.tool
+def multiply(a: int, b: int) -> int:
+    """ This is a simple tool that will multiply two numbers together."""
+    return a * b
+
+@mcp.tool
+def divide(a: int, b: int) -> float:
+    """ This is a simple tool that will divide a number by another number."""
+    return a / b
 
 @mcp.tool
 def greet(name: str) -> str:
@@ -31,5 +52,4 @@ def mcp_server_guide() -> str:
     return resource
 
 if __name__ == "__main__":
-    print(mcp_server_guide())
-    mcp.run(transport="http", port=8000)
+    mcp.run(transport="http", port=PORT)
