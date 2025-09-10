@@ -28,11 +28,11 @@ Follow the steps to install [UV for Windows](https://docs.astral.sh/uv/getting-s
 ### Built With
 
 
-<a href="https://gofastmcp.com/"><img src="https://raw.githubusercontent.com/CopilotSWATTeam/simple-mcp-server/64b8ed6e95eb37565921a9cb757f07e1cc779468/media/fast-mcp.svg?token=AAQW5GR7I46QZWRPAWGE5ALIXSO76" height="75" alt="FastMCP website."></a>
+<a href="https://gofastmcp.com/"><img src="media/fast-mcp.svg?token=AAQW5GR7I46QZWRPAWGE5ALIXSO76" height="75" alt="FastMCP website."></a>
 
 **[FastMCP]**
 
-<a href="https://docs.astral.sh/uv/getting-started/"><img src="https://raw.githubusercontent.com/CopilotSWATTeam/simple-mcp-server/64b8ed6e95eb37565921a9cb757f07e1cc779468/media/astral-uv.svg?token=AAQW5GXP26P5I4BKUJAWH73IXSO5I" height="75" alt="Astral UV Website"></a>
+<a href="https://docs.astral.sh/uv/getting-started/"><img src="media/astral-uv.svg?token=AAQW5GXP26P5I4BKUJAWH73IXSO5I" height="75" alt="Astral UV Website"></a>
 
 **Astral [UV]**
 
