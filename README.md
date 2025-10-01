@@ -24,6 +24,7 @@ Follow the steps to install [UV for Windows](https://docs.astral.sh/uv/getting-s
 2. Navigate to directory of the local repo.
 3. Run `uv sync` to pull all the python packages.
 4. To run the server with default parameters, run `start-server.sh` on MacOs/Linux or `start-server.cmd` on Windows.
+5. (Optional) To run your MCP Server behind [NGrok], run `start-ngrok.sh` on MacOs/Linux.
 
 ---
 
@@ -42,6 +43,6 @@ Follow the steps to install [UV for Windows](https://docs.astral.sh/uv/getting-s
 
 
 
-
+[NGrok]: https://ngrok.io/
 [UV]: https://docs.astral.sh/uv/
 [FastMCP]:https://gofastmcp.com/
